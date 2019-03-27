@@ -8,13 +8,13 @@ import android.view.ViewGroup
 
 
 class Detallle : Fragment() {
-
+    //Object para el fragment
     companion object {
         fun newInstance(): Detallle {
             return Detallle()
         }
     }
-
+    //Hacemos que se muestre el fragment
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
 
